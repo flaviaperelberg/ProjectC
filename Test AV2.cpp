@@ -49,16 +49,27 @@ void specialistMedicos7 () {
     printf("7 - Ginelocogia e Obstetricia - 2 Drï¿½. Lorena Viega\n");
     printf("7 - Ginecologia e Obstetricia - 3 Drï¿½. Patricia Lima\n");
 }
-//tentativa de implementaï¿½ï¿½o de banco de dados simples em C
+void unidades () {
+	printf("1 - Unidade de Saúde da Familia Brotas\n");
+	printf("2 - Unidade de Saúde da Familia Ribeira\n");
+	printf("3 - Unidade de Saúde da Familia Boca do Rio\n");
+	printf("4 - Unidade de Saúde da Familia Itapuã\n");
+	printf("5 - Unidade de Saúde da Familia Itinga\n")
+	printf("6 - Hospital da Mulher\n");
+	printf("7 - Hospital Geral do Estado\n");
+	printf("8 - Hospital Menandro de Farias\n");
+}
+
+//tentativa de implementação de banco de dados simples em C
 
 main(){
 setlocale(LC_ALL,"");
 
 int numspecilist, nummedico;
-    printf("Olï¿½, Bem Vindo ao nosso prototipo de APP\n");
+    printf("Olá, Bem Vindo ao nosso prototipo de APP\n");
     
     specialist();
-    printf("Escolha o numero da opï¿½ï¿½o de sua especialidade: ");
+    printf("Escolha o numero da opção de sua especialidade: ");
     numspecilist = getche();
 
 	return 0;
