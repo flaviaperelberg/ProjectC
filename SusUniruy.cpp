@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <conio.h>
 #include <locale.h>
-#include <windows.h>
 #define SIZE 200
 
 char nome[SIZE] [50];
